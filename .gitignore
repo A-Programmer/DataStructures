@@ -9,9 +9,6 @@ tests/
 **/.vs/
 **/.code/
 **/.vscode/
-src/.vs/
-src/.code/
-src/.vscode/
 tests/.vs/
 tests/.code/
 tests/.vscode/
@@ -19,23 +16,23 @@ tests/.vscode/
 **/.DS_Store?
 
 # src:
-src/DataStructures/.vs/
-src/DataStructures/.code/
-src/DataStructures/.vscode/
-src/DataStructures/[Dd]ebug/
-src/DataStructures/[Dd]ebugPublic/
-src/DataStructures/[Rr]elease/
-src/DataStructures/[Rr]eleases/
-src/DataStructures/x64/
-src/DataStructures/x86/
-src/DataStructures/build/
-src/DataStructures/bld/
-src/DataStructures/[Bb]in/
-src/DataStructures/[Oo]bj/
-src/DataStructures/[Oo]ut/
-src/DataStructures/msbuild.log
-src/DataStructures/msbuild.err
-src/DataStructures/msbuild.wrn
+DataStructures/.vs/
+DataStructures/.code/
+DataStructures/.vscode/
+DataStructures/[Dd]ebug/
+DataStructures/[Dd]ebugPublic/
+DataStructures/[Rr]elease/
+DataStructures/[Rr]eleases/
+DataStructures/x64/
+DataStructures/x86/
+DataStructures/build/
+DataStructures/bld/
+DataStructures/[Bb]in/
+DataStructures/[Oo]bj/
+DataStructures/[Oo]ut/
+DataStructures/msbuild.log
+DataStructures/msbuild.err
+DataStructures/msbuild.wrn
 
 ## others
 [Dd]ebug/
