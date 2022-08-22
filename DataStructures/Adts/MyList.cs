@@ -42,7 +42,7 @@ namespace DataStructures.Adts
 
         public MyList<T> Set(int index, T value)
         {
-            if (index < 0 || index >= occupied)
+            if (index < 0 || index > occupied)
             {
                 throw new Exception("Index is out of the range");
             }
@@ -94,8 +94,10 @@ namespace DataStructures.Adts
             return this;
         }
 
-        public MyList<T> Remove(int index)
+        public T Remove(int index)
         {
+            var currentValue = array[index];
+
             if (index < 0 || index >= occupied)
             {
                 throw new ArgumentException("Index can not be out of the range.");
@@ -111,15 +113,15 @@ namespace DataStructures.Adts
             }
 
             occupied--;
-            return this;
+            return currentValue;
         }
 
-        public MyList<T> RemoveFromStart()
+        public T RemoveFromStart()
         {
             return Remove(0);
         }
 
-        public MyList<T> RemoveFromEnd()
+        public T RemoveFromEnd()
         {
             return Remove(occupied - 1);
         }
