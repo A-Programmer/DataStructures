@@ -53,7 +53,7 @@ namespace DataStructures.Adts
 
 
 
-        public MyList<T> Insert(int index, T value)
+        public T Insert(int index, T value)
         {
             if (index < 0 || index > occupied)
                 throw new ArgumentException("index can not be out of range.");
@@ -74,15 +74,15 @@ namespace DataStructures.Adts
             Set(index, value);
             occupied++;
 
-            return this;
+            return value;
         }
 
-        public MyList<T> PushToEnd(T value)
+        public T PushToEnd(T value)
         {
             return Insert(occupied, value);
         }
 
-        public MyList<T> PushToStart(T value)
+        public T PushToStart(T value)
         {
             return Insert(0, value);
         }

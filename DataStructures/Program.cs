@@ -18,16 +18,31 @@ namespace DataStructures
             //Console.WriteLine(array.Remove(1).ToString());
 
 
-            var queue = new MyQueue<int>();
-            queue.Add(24).Add(45).Add(33);
-            Console.WriteLine(queue.ToString());
+            //var queue = new MyQueue<int>();
+            //queue.Add(24).Add(45).Add(33);
+            //Console.WriteLine(queue.ToString());
 
-            Console.WriteLine(queue.Head().ToString());
-            Console.WriteLine(queue.Tail().ToString());
+            //Console.WriteLine(queue.Head().ToString());
+            //Console.WriteLine(queue.Tail().ToString());
 
-            Console.WriteLine(queue.Take());
+            //Console.WriteLine(queue.Take());
 
-            Console.WriteLine(queue.ToString());
+            //Console.WriteLine(queue.ToString());
+
+            //  24 - 33 - 67 - 12
+            var myStack = new MyStack<int>();
+            myStack.Push(24);
+            myStack.Push(33);
+            myStack.Push(67);
+            myStack.Push(12);
+
+            Console.WriteLine(myStack.ToString());
+            Console.WriteLine(myStack.Pop());
+            Console.WriteLine(myStack.ToString());
+
+            Console.WriteLine(myStack.Top());
+
+
 
 
             Console.ReadLine();
