@@ -3,7 +3,7 @@ namespace DataStructures.Adts
 {
 	public class MyQueue<T>
 	{
-		MyList<T> list = new MyList<T>();
+		private MyList<T> list = new MyList<T>();
 
 		public int Size()
 		{
