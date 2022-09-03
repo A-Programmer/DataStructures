@@ -7,8 +7,10 @@
 
   <ItemGroup>
     <None Remove="Adts\" />
+    <None Remove="Algorithms\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Adts\" />
+    <Folder Include="Algorithms\" />
   </ItemGroup>
 </Project>
